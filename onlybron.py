@@ -1,5 +1,4 @@
-import os
-import dotenv
+import os, dotenv
 from telegram import Update, LabeledPrice, InputFile
 from telegram.ext import (  ApplicationBuilder,
                             PreCheckoutQueryHandler,
